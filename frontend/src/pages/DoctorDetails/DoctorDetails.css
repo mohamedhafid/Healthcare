@@ -1,0 +1,51 @@
+.details{
+    width:70%;
+    margin:auto;
+    color:white;
+}
+
+.details-info{
+    margin-top: 55px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+    width:60%;
+    gap:20px;
+}
+.details-info img{
+    height:300px;
+    width:300px;
+    border-radius: 10px;
+
+}
+.details-personal{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.star{
+    color:orange;
+}
+.details-p-info button{
+    color:orange;
+    margin-top: 10px;
+}
+.price{
+  display:flex;
+  /* justify-content: space-between; */
+  gap:20px;
+}
+.price-content{
+    width:200px;
+    height:fit-content;
+    text-align: center;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,.1);
+    color:black;
+    
+}
+.feedback button{
+    padding:10px 20px;
+    border:none;
+    outline:none;
+    color:white;
+    background:var(--secondary);
+}

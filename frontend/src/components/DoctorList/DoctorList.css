@@ -1,0 +1,59 @@
+.doctorlist{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: 1s ease-in-out ;
+
+}
+.doctorlist:hover{
+    background:var(--secondary);
+    color:white;
+    transform: translateY(-10px);
+}
+.doctorlist img{
+    width:300px;
+    height:300px; 
+    max-width: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: all 0.5s;
+    cursor:pointer;
+}
+.doctorlist h1{
+    font-size:18px;
+}
+.doctorlist p{
+    text-align: start;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+.doctor-details{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+
+
+}
+.speciality{
+    background-color:orange;
+    padding:5px;
+    color:white;
+    border-radius: 10px;
+
+}
+.doctorlist:hover .speciality{
+    background:white;
+    color:orange;
+    text-align: center;
+
+}
+.doctor-location{
+    /* padding:10px; */
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+}

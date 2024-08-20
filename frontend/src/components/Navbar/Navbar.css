@@ -1,0 +1,34 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding:5px 5%;
+    color:white;
+    background:linear-gradient(to right, rgba(1, 31, 71, 0.329),rgba(255, 166, 0, 0.341),rgba(0, 0, 0, 0.323));
+}
+.nav-logo{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    font-style: italic;
+}
+.nav-links {
+    display:flex;
+    align-items: center;
+    gap:15px;
+}
+.nav-links a{
+    color:black;
+}
+
+.nav-button button{
+    padding:10px 20px;
+    border:none;
+    outline:none;
+    color:white;
+    background:white;
+    color:var(--secondary);
+    border-radius: 10px;
+    cursor: pointer;
+}

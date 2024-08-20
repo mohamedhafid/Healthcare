@@ -1,0 +1,45 @@
+
+.doctors-content{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.393),var(--secondary)),url(../../assets/images/healthcare.avif);
+
+    height:60vh;
+
+}
+.doctors-find{
+  position: relative;
+  width:400px;
+  margin-bottom: 55px;
+}
+.doctors-find input,button{
+    padding:15px;
+    border-radius: 10px;
+    border:none;
+    outline:none;
+
+}
+.doctors-find input{
+    width:400px;
+}
+.doctors-find button{
+    width:100px;
+    position: absolute;
+    right:-1px;
+    outline:none;
+    color:white;
+    background: var(--secondary);
+}
+.doctors-list{
+    padding:55px 7%;
+}
+.doctors-list-data{
+    /* display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,1fr)); */
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    width:100%;
+}

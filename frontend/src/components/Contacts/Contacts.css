@@ -1,0 +1,39 @@
+.contacts{
+    margin: auto;
+    width:80%;
+
+}
+.contact-form .name{
+    display:flex;
+    gap:5px;
+}
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+}
+.contact-form button{
+    padding:10px 20px;
+    border:none;
+    outline:none;
+    color:white;
+    background:var(--secondary);
+    width:300px;
+    margin:auto;
+}
+.contact-form input,textarea{
+    width:100%;
+    padding:19px;
+
+}
+
+.contact-form input{
+    padding:10px;
+}
+.contacts-content{
+    margin-top: 55px;
+   text-align: center;
+   display:flex;
+   flex-direction: column;
+   gap:20px;
+}

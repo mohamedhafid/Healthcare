@@ -1,0 +1,47 @@
+.hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.784),rgba(0, 0, 0, 0.586)),url(../../assets/images/header.jpeg) no-repeat center/cover;
+    max-width:100%;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+.hero-content{
+    z-index: 100;
+    width:80%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    
+}
+
+.hero-health{
+    background-image: linear-gradient(45deg, var(--primary),white);
+    background-clip: text;
+    color: transparent;
+}
+.hero-buttons{
+    display:flex;
+    gap:20px;
+
+}
+.hero-buttons button{
+    padding:10px 20px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+
+    border-radius: 10px;
+}
+.hero-buttons .explore-button{
+    background:var(--secondary);
+    color:white;
+}
+.hero-buttons .doctor-button {
+    background:white;
+    color:var(--secondary);
+}

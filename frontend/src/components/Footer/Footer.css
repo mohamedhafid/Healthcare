@@ -1,0 +1,29 @@
+.footer{
+    width:100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+.footer-content{
+    margin-top: 55px;
+    padding:55px 15%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit ,minmax(200px,1fr));
+    gap:20px;
+    justify-content: space-around;
+    background-color:black;
+    color:white;
+}
+.footer-content ul{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    text-align: center;
+}
+.footer-content ul li:hover{
+   color:blue;
+   cursor: pointer;
+}
+.footer-features{
+    /* width:35%; */
+}
